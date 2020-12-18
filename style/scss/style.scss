@@ -1,0 +1,103 @@
+.bgWrapper{
+  background-image: url("https://hot-game.news/wp-content/uploads/2020/11/bg-5.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  background: #f9f9f9;
+  font-size: 14px;
+
+}
+
+
+.bgWrapper footer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.bgWrapper footer .footerNav{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 32px 28px;
+  justify-content: space-between;
+  max-width: 1160px;
+  width: 100%;
+}
+
+.block{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  position: relative;
+}
+
+.bgWrapper footer .footerNav .logoFooter a{
+  text-decoration: none;
+  color: #141414;
+}
+
+.bgWrapper footer .footerNav .logoFooter a svg {
+  display: inline-block;
+  height: 53px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.bgWrapper footer .footerNav .logoFooter a img {
+  width: 120px;
+  vertical-align: middle;
+}
+
+.bgWrapper footer .footerNav .footerMenu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 67%;
+  justify-content: space-between;
+}
+
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems{
+  display: flex;
+
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems li{
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0 25px;
+}
+
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems li a{
+  text-decoration: none;
+  color: #141414;
+}
+
+.socialMenu {
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  color: #a7a7a7;
+  padding: 0;
+  margin: 0;
+}
+
+.socialMenu li {
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 11px;
+}
+
+.teleg{
+  color: #2CA5E0;
+}
+
+.discord{
+  color: #7289DA;
+}
