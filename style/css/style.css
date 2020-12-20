@@ -1,67 +1,137 @@
-.bgWrapper {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bgWrapper{
   background-image: url("https://hot-game.news/wp-content/uploads/2020/11/bg-5.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   font-family: Arial;
   background: #f9f9f9;
-  font-size: 14px; }
+  font-size: 14px;
 
-.bgWrapper footer {
+}
+
+.bgWrapper header {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 25px;
+  position: relative;
+}
+
+.bgWrapper header .logoWrapper{
+  padding-left: 55px;
+}
+
+.logoWrapper a {
+  text-decoration: none;
+  color: #141414;
+}
+
+.logoWrapper svg {
+  display: inline-block;
+  vertical-align: middle;
+  height: 53px;
+}
+
+.bgWrapper header nav {
+  display: flex;
+  align-items: center;
+}
+
+.bgWrapper header nav ul.headerMenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+.bgWrapper header nav ul.headerMenu li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+
+.bgWrapper header nav ul.headerMenu li a {
+  color: #141414;
+  text-decoration: none;
+}
+
+
+
+
+.bgWrapper footer{
   display: flex;
   justify-content: center;
   align-content: center;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
-.bgWrapper footer .footerNav {
+.bgWrapper footer .footerNav{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding: 32px 28px;
   justify-content: space-between;
   max-width: 1160px;
-  width: 100%; }
+  width: 100%;
+}
 
-.block {
+.block{
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  position: relative; }
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  position: relative;
+}
 
-.bgWrapper footer .footerNav .logoFooter a {
+.bgWrapper footer .footerNav .logoFooter a{
   text-decoration: none;
-  color: #141414; }
+  color: #141414;
+}
 
 .bgWrapper footer .footerNav .logoFooter a svg {
   display: inline-block;
   height: 53px;
   vertical-align: middle;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .bgWrapper footer .footerNav .logoFooter a img {
   width: 120px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
-.bgWrapper footer .footerNav .footerMenu {
+.bgWrapper footer .footerNav .footerMenu{
   display: flex;
   flex-wrap: wrap;
   width: 67%;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
-.bgWrapper footer .footerNav .footerMenu .footerMenuItems {
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems{
   display: flex;
   list-style: none;
   margin: 0;
-  padding-left: 0; }
+  padding-left: 0;
+}
 
-.bgWrapper footer .footerNav .footerMenu .footerMenuItems li {
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems li{
   font-weight: 600;
   font-size: 13px;
-  padding: 0 25px; }
+  padding: 0 25px;
+}
 
-.bgWrapper footer .footerNav .footerMenu .footerMenuItems li a {
+.bgWrapper footer .footerNav .footerMenu .footerMenuItems li a{
   text-decoration: none;
-  color: #141414; }
+  color: #141414;
+}
 
 .socialMenu {
   display: flex;
@@ -69,19 +139,48 @@
   font-size: 14px;
   color: #a7a7a7;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .socialMenu li {
   margin-left: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 11px; }
+  line-height: 11px;
+}
 
-.teleg {
-  color: #2CA5E0; }
+.teleg{
+  color: #2CA5E0;
+}
 
-.discord {
-  color: #7289DA; }
+.discord{
+  color: #7289DA;
+}
 
-/*# sourceMappingURL=style.css.map */
+
+
+.bgWrapper footer .footerNav .footerCopyright{
+  display: block;
+  border-top: 1px solid #b1b1b1;
+  padding: 0;
+  position: relative;
+  top: 20px;
+  /*max-width: 1160px;*/
+  width: 100%;
+}
+
+.bgWrapper footer .footerNav .footerCopyright .copyrightText{
+  padding-top: 10px;
+  color: #b1b1b1;
+  text-align: center;
+}
+
+.bgWrapper footer .footerNav .footerCopyright .copyrightText a{
+  color: #b1b1b1;
+}
+
+.bgWrapper footer .footerNav .footerCopyright .copyrightText a:visited{
+  color: #b1b1b1;
+}
+
