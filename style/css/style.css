@@ -198,3 +198,29 @@
     transform: none
   }
 }
+
+.box {
+  width: 400px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+}
+
+.mesh1, .mesh {
+  background:
+          -webkit-linear-gradient(5deg,  rgba(0, 250, 0, 0.5), rgba(0, 100, 0, 0.5))
+}
+
+.mesh:after, .mesh:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  right: 0px;
+}
+.mesh2, .mesh:after {
+  background:   -webkit-radial-gradient(center center, circle cover, rgba(250, 0, 0, 0.6) 0%, rgba(120, 0, 10, 0.5) 100%);}
+
+.mesh3, .mesh:before {
+  background: -webkit-radial-gradient(10% 10%, ellipse cover, rgba(0, 0, 250, 0.6) 0%, white 100%);}
