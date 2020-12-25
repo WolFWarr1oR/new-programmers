@@ -61,12 +61,7 @@
 </header>
 <div id="chatikbro"></div>
 
-<style></style>
 
-<div class="box mesh1"></div>
-<div class="box mesh2"></div>
-<div class="box mesh3"></div>
-<div class="box mesh"></div>
 <footer>
     <div class="footerNav block">
 
