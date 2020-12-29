@@ -62,7 +62,237 @@
 </header>
 <div class="container">
     <div class="row justify-content-center">
+        <div id="content" class="col-xl-9">
+            <div class="posts_bg">
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
+                <div class="post">
+                    <a href="" class="post_img">
+                        <picture>
+                            <source srcset="img/placeholder.webp" type="image/webp">
+                            <img width="486" height="273" src="img/placeholder.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="post-text">
+                        <div class="post-title">
+                            <a href="" class="post_h2">Установка и настройка Python 3</a>
+                        </div>
+                    </div>
+                    <div class="post-descr">
+                        <p>
+                            Установка или обновление Python на вашем компьютере – это первый шаг к тому, чтобы стать программистом Python.
+                        </p>
+                    </div>
+                    <div class="category_post">
+                        <ul class="post-categories">
+                            <li><a href="">Программирование</a></li>
+                            <li><a href="">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-view">
+                        <i class="far fa-eye"></i><span>116</span>
+                    </div>
+                    <p class="post-date">17 сентября, 2020</p>
+                </div>
 
+
+
+            </div>
+        </div>
         <aside id="sidebar" class="col-xl-3" style="position: relative;overflow: visible;box-sizing: border-box;min-height: 1px;">
             <div class="inner">
                 <section class="chatik">
