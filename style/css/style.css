@@ -13,7 +13,7 @@ body{
   background-position: center top;
   background-repeat: no-repeat;
   font-family: Arial;
-  background: #f9f9f9;
+  /*background: #f9f9f9;*/
   font-size: 14px;
 
 }
@@ -34,7 +34,7 @@ body{
 
 .logoWrapper a {
   text-decoration: none;
-  color: #141414;
+  color: #ebebeb;
 }
 
 .logoWrapper svg {
@@ -64,7 +64,7 @@ body{
 }
 
 .bgWrapper header nav ul.headerMenu li a {
-  color: #141414;
+  color: #ebebeb;
   text-decoration: none;
 }
 
@@ -178,6 +178,10 @@ picture {
   margin-top: 14px;
 }
 
+.post-view i.far.fa-eye{
+  color: #797a86;
+}
+
 .post-view span {
   font-family: sans-serif;
   font-size: 12px;
@@ -194,7 +198,7 @@ picture {
   font-style: normal;
   font-weight: 500;
   text-align: left;
-  color: var(--gray);
+  color: #797a86;
   margin: 0;
   margin-top: 16px;
 }
@@ -203,7 +207,7 @@ picture {
   content: " ";
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,.54);
   box-shadow: 0 0 8px 1px rgba(0,0,0,.54);
-  background-color: #1f2326;
+  background-color: #131417;
   position: fixed;
   top: 0;
   width: 328px;
@@ -230,7 +234,7 @@ picture {
   display: inline-block;
   margin: 0;
   padding: 0;
-  color: #d1d1d1;
+  color: #ebebeb;
   font-family: "Roboto Condensed",sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -383,7 +387,7 @@ picture {
 }
 
 .chatbro_messages_block {
-  background: #1f2127 !important
+  background: #131417 !important
 }
 
 .chatbro_message_image {
