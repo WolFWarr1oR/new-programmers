@@ -1,31 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap-grid.min.css">
     <link href="style/css/style.css" rel="stylesheet">
     <title>Сайт Начинающих программистов</title>
     <script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */
-    function ChatbroLoader(chats, async) {
-        async = !1 !== async;
-        var params = {
-            embedChatsParameters: chats instanceof Array ? chats : [chats],
-            lang: navigator.language || navigator.userLanguage,
-            needLoadCode: 'undefined' == typeof Chatbro,
-            embedParamsVersion: localStorage.embedParamsVersion,
-            chatbroScriptVersion: localStorage.chatbroScriptVersion
-        }, xhr = new XMLHttpRequest;
-        xhr.withCredentials = !0, xhr.onload = function () {
-            eval(xhr.responseText)
-        }, xhr.onerror = function () {
-            console.error('Chatbro loading error')
-        }, xhr.open('GET', '//www.chatbro.com/embed.js?' + btoa(unescape(encodeURIComponent(JSON.stringify(params)))), async), xhr.send()
-    }/* Chatbro Widget Embed Code End */
-    ChatbroLoader({encodedChatId: '67J2q'});</script>
+        function ChatbroLoader(chats, async) {
+            async = !1 !== async;
+            var params = {
+                embedChatsParameters: chats instanceof Array ? chats : [chats],
+                lang: navigator.language || navigator.userLanguage,
+                needLoadCode: 'undefined' == typeof Chatbro,
+                embedParamsVersion: localStorage.embedParamsVersion,
+                chatbroScriptVersion: localStorage.chatbroScriptVersion
+            }, xhr = new XMLHttpRequest;
+            xhr.withCredentials = !0, xhr.onload = function () {
+                eval(xhr.responseText)
+            }, xhr.onerror = function () {
+                console.error('Chatbro loading error')
+            }, xhr.open('GET', '//www.chatbro.com/embed.js?' + btoa(unescape(encodeURIComponent(JSON.stringify(params)))), async), xhr.send()
+        }/* Chatbro Widget Embed Code End */
+        ChatbroLoader({encodedChatId: '67J2q'});</script> <!-- chatBro -->
 </head>
-<body class="bgWrapper" style="background-image: url(https://hot-game.news/wp-content/uploads/2020/11/bg-5.jpg)">
+<body class="bgWrapper" style="/*background-image: url(https://hot-game.news/wp-content/uploads/2020/11/bg-5.jpg)*/">
 <header style="animation-name:fadeInDown">
     <div class="logoWrapper">
         <a href="#">
@@ -59,8 +60,38 @@
         </ul>
     </nav>
 </header>
-<div id="chatikbro"></div>
+<div class="container">
+    <div class="row justify-content-center">
 
+        <aside id="sidebar" class="col-xl-3" style="position: relative;overflow: visible;box-sizing: border-box;min-height: 1px;">
+            <div class="inner">
+                <section class="chatik">
+                    <header>
+                        <h1>ОНЛАЙН ЧАТ</h1>
+                    </header>
+                    <div id="chatikbro"></div>
+                </section>
+                <section class="advertising">
+                    <header>
+                        <h1>РЕКЛАМА</h1>
+                    </header>
+                    <div style="overflow: hidden; width:300px; height:250px; position:relative; margin:auto;">
+                        <a href="https://ethereumads.com" target="_new">Earn cryptocurrency with banner ads</a>
+                        <a href="https://ethereumads.com/link?address=0x9f3ee0a5F7810F6E8170E3ee3757A3b185BB4F9c&slot=0&width=300&height=250">
+                            <img alt="Earn cryptocurrency with EthereumAds" src="https://ethereumads.com/media?address=0x9f3ee0a5F7810F6E8170E3ee3757A3b185BB4F9c&slot=0&width=300&height=250" style="position:absolute; top:0;left:0;margin:0">
+                        </a>
+                    </div>
+                </section>
+                <section class="orphus">
+                    <div>
+
+                    </div>
+                </section>
+            </div>
+
+        </aside>
+    </div>
+</div>
 
 <footer>
     <div class="footerNav block">
@@ -78,7 +109,8 @@
                           fill="#2196F3"/>
                     <g>
                         <title>БЕТА</title>
-                        <rect fill="#00ffff" height="33" id="svg_2" rx="5" stroke="#000" stroke-width="0" width="69" x="215"
+                        <rect fill="none" height="33" id="svg_2" rx="5" stroke="#000" stroke-width="0" width="69"
+                              x="215"
                               y="0.5"/>
                         <text fill="#000000" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24"
                               font-weight="bold" id="svg_3" stroke="#000" stroke-width="0" text-anchor="start"
@@ -101,7 +133,8 @@
         <div class="footerCopyright">
             <div class="copyrightText">
                 Начинающие программисты © 2020 | Автор сайта:
-                <a class="no-visited" href="https://vk.com/wolfwarr1or">VK</a> <a class="no-visited" href="https://t.me/WolFWarr1oR">Telegram</a>
+                <a class="no-visited" href="https://vk.com/wolfwarr1or">VK</a> <a class="no-visited"
+                                                                                  href="https://t.me/WolFWarr1oR">Telegram</a>
             </div>
 
         </div>
